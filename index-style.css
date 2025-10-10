@@ -1,3 +1,25 @@
+
+HEADER{
+    height:200px;
+    width:600px;
+    background-color: white;
+    opacity: 0%;
+}
+
+
+main{
+    height:750px;
+    width:600px;
+   background-color: rgb(255, 255, 255);
+   
+      padding-left:100px;
+    padding-right:100px;
+     margin:auto;
+}
+
+
+
+
 .box{
     height: 750px;
     width:1500px;

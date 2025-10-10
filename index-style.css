@@ -1,6 +1,20 @@
+ html{
+    height:100%;
+}   
+
+article{
+    height: 50px;
+    width: 75px;
+    background-color:white;
+    padding-left:100px;
+    padding-right:100px;
+    margin:auto;
+    border: black;
+
+}
 
 HEADER{
-    height:200px;
+    height:100px;
     width:600px;
     background-color: white;
     opacity: 0%;
@@ -8,13 +22,14 @@ HEADER{
 
 
 main{
+    border-radius: 25px;
     height:750px;
     width:600px;
    background-color: rgb(255, 255, 255);
    
-      padding-left:100px;
+    padding-left:100px;
     padding-right:100px;
-     margin:auto;
+    margin:auto;
 }
 
 

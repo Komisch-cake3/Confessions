@@ -1,17 +1,24 @@
+header{
+    height:150px;
+    width:600px;
+    background-color: aliceblue;
+    opacity: 0%;
+  z-index:2;
+}
 
 .image1{
-    height: 300px;
+    height: 500px;
     width:600px;
     margin:auto;
     background-size:cover;
     background-image:url("images/Confessions.png");
+    z-index:4;
     padding-top:50px;
-    padding-bottom:50px;
+    position:fixed;
+    bottom:390px;
+    right: 400px;
+    
 }
-
-
-
-
 
 main{
     border-radius: 25px;
@@ -19,8 +26,9 @@ main{
     width:600px;
     background-color: rgb(231, 231, 231);
     padding-left:100px;
-    padding-right:100px;
+    padding-right:100px;    
     margin:auto;
+    z-index:3;
 }
 
 .box{

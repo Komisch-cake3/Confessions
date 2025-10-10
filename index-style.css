@@ -1,0 +1,8 @@
+.box{
+  height: 100%; /* Full height */
+background-position: center; /* Center the image */
+background-repeat: no-repeat; /* Do not repeat the image */
+background-size: cover;
+
+    background-image:linear-gradient(black 10%,rgb(58, 58, 58), gray,white) ;
+}

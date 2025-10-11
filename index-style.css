@@ -14,25 +14,25 @@ header{
     background-image:url("images/Confessions.png");
     z-index:4;
     padding-top:50px;
-    position:fixed;
-    bottom:390px;
+    position:relative;
+    top:-250px;
     right: 400px;
-    
+    left: 50px;
 }
 
 main{
     border-radius: 25px;
-    height:750px;
+    height:850px;
     width:600px;
     background-color: rgb(231, 231, 231);
-    padding-left:100px;
+    padding-left:101px;
     padding-right:100px;    
     margin:auto;
     z-index:3;
 }
 
 .box{
-    height: 950px;
+    height: 1050px;
     width:1500px;
     margin:auto;
     background-size:cover;

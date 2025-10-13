@@ -1,5 +1,22 @@
+body{
 
-header{
+.bitcount-grid-double-<uniquifier> {
+  font-family: "Bitcount Grid Double", system-ui;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0;
+    
+}
+}
+    
+    
+    
+    header{
     height:150px;
     width:600px;
     background-color: aliceblue;
@@ -17,9 +34,12 @@ section{
     padding-top: 35px;
     font:normal;
     right: 44   0px;
-    top: 500px;
+    top: 300px;
     z-index: 5;
     position: relative;
+    font-family: "Bitcount Grid Double", system-ui;
+    size: 0px;
+
 }
 
 
@@ -29,8 +49,8 @@ section{
     width:500px;
     z-index:6;
     background-size:cover;
-    background-image:url("images/Logo.png");
-    top: -146px;
+    background-image:url("images/Logo3.PNG");
+    top: -246px;
     position:relative;
     left: 50px;
 }
@@ -44,7 +64,7 @@ section{
     z-index:4;
     padding-top:20px;
     position:relative;
-    top:-130px;
+    bottom: 340px;
     right: 400px;
     left: 310px;
  

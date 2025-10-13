@@ -7,10 +7,33 @@ header{
   z-index:2;
 }
 
-p{
-    
+
+section{
+    color: rgb(0, 0, 0);
+    border-radius:5px;
+    opacity: 100%;
+    text-align: center;
+    position:sticky;
+    padding-top: 35px;
+    font:normal;
+    right: 44   0px;
+    top: 500px;
+    z-index: 5;
+    position: relative;
 }
 
+
+  
+.image2{
+    height:500px;
+    width:500px;
+    z-index:6;
+    background-size:cover;
+    background-image:url("images/Logo.png");
+    top: -146px;
+    position:relative;
+    left: 50px;
+}
 
 .image1{
     height:500px;
@@ -19,9 +42,9 @@ p{
     background-size:cover;
     background-image:url("images/Aeril .png");
     z-index:4;
-    padding-top:50px;
+    padding-top:20px;
     position:relative;
-    top:550px;
+    top:-130px;
     right: 400px;
     left: 310px;
  

@@ -7,40 +7,46 @@ header{
   z-index:2;
 }
 
+p{
+    
+}
 
 
 .image1{
-    height: 500px;
+    height:500px;
     width:600px;
     margin:auto;
     background-size:cover;
-    background-image:url("images/Confessions.png");
+    background-image:url("images/Aeril .png");
     z-index:4;
     padding-top:50px;
     position:relative;
-    top:-250px;
+    top:550px;
     right: 400px;
-    left: 50px;
+    left: 310px;
+ 
 }
 
 main{
     border-radius: 25px;
-    height:850px;
+    height:2250px;
     width:600px;
-    background-color: rgb(231, 231, 231);
+    background-color: rgb(255, 255, 255);
     padding-left:101px;
     padding-right:100px;    
     margin:auto;
     z-index:3;
+    
+    
 }
 
 .box{
-    height: 1050px;
-    width:1500px;
-    margin:auto;
-    background-size:cover;
-    background-image:linear-gradient(black 10%,rgb(58, 58, 58), gray,rgb(200, 200, 200)) ;
-
+    
+    background: rgb(171, 195, 243);
+    left: 0;
+    height: 2500px;
+    position:absolute;
+    right: 0;
 }
 
 .container{ 

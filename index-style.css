@@ -11,7 +11,7 @@ body{
     "ELSH" 0,
     "ELXP" 0;
     
-}
+
 }
     
     
@@ -42,15 +42,28 @@ section{
 
 }
 
+.image3{
+    height:90px;
+    width:83px;
+    z-index:8;
+    background-size:cover;
+    background-image:url("images/eye1.PNG");
+    position:relative;  
+    top:00px;
+    right:150px;
+   
 
+}
   
+
+
 .image2{
     height:500px;
     width:500px;
     z-index:6;
     background-size:cover;
     background-image:url("images/Logo3.PNG");
-    top: -246px;
+    top: -346px;
     position:relative;
     left: 50px;
 }

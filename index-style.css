@@ -34,11 +34,87 @@ section{
     padding-top: 35px;
     font:normal;
     right: 44   0px;
-    top: 300px;
+    top: 400px;
     z-index: 5;
     position: relative;
     font-family: "Bitcount Grid Double", system-ui;
     size: 0px;
+
+}
+.swirly{
+    height: 90px;
+    width: 83px;
+    z-index: 6;
+    background-size: cover;
+    background-image:url("images/swirly2.PNG")
+    top: 500px;
+    left: 500px;
+
+}
+
+
+
+
+}
+
+.image8{
+    height:90px;
+    width:83px;
+    z-index:5;
+    background-size:cover;
+    background-image:url("images/eye1.PNG");
+    position:relative;  
+    top:1000px;
+    left: 650px;
+   rotate: 5px;
+}
+
+.image7{
+    height:90px;
+    width:83px;
+    z-index:5;
+    background-size:cover;
+    background-image:url("images/eye1.PNG");
+    position:relative;  
+    top:1000px;
+    left: 650px;
+   rotate: 5px;
+}
+
+.image6{
+    height:90px;
+    width:83px;
+    z-index:5;
+    background-size:cover;
+    background-image:url("images/eye1.PNG");
+    position:relative;  
+    top:1000px;
+    left: 650px;
+   rotate: 5px;
+}
+
+.image5{
+    height:90px;
+    width:83px;
+    z-index:5;
+    background-size:cover;
+    background-image:url("images/eye1.PNG");
+    position:relative;  
+    top:1000px;
+    left: 650px;
+   rotate: 5px;
+}
+
+.image4{
+    height:90px;
+    width:83px;
+    z-index:4;
+    background-size:cover;
+    background-image:url("images/eye1.PNG");
+    position:relative;  
+    top:50px;
+    left: 650px;
+   rotate: 35deg ;
 
 }
 
@@ -63,7 +139,7 @@ section{
     z-index:6;
     background-size:cover;
     background-image:url("images/Logo3.PNG");
-    top: -346px;
+    top: -940px;
     position:relative;
     left: 50px;
 }

@@ -34,11 +34,44 @@ section{
     padding-top: 35px;
     font:normal;
     right: 44   0px;
-    top: 400px;
+    top: 240px;
     z-index: 5;
     position: relative;
     font-family: "Bitcount Grid Double", system-ui;
     size: 0px;
+}
+
+nav{
+    width: 500px;
+    height: 100px;
+    text-align: center;
+    border-radius: 4px;
+    margin:auto;
+    position:relative;
+    padding-top: 20px;
+    left: 00px;
+    z-index: 11;
+    right: 500px;
+    display: block ;
+    unicode-bidi: isolate;
+    color: black;
+    top: 300px;
+
+}
+
+a{ 
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    font-size:20px;
+    padding-left:10px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+
+
+
+
 
 }
 .swirly{

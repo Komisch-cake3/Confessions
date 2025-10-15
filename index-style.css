@@ -10,18 +10,34 @@ body{
     "CRSV" 0.5,
     "ELSH" 0,
     "ELXP" 0;
-    
 
+
+.suse-mono-<uniquifier> {
+  font-family: "SUSE Mono", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+
+  // <weight>: Use a value from 100 to 900
+// <uniquifier>: Use a unique and descriptive class name
+
+.roboto-<uniquifier> {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+}
 }
     
-    
-    
     header{
-    height:150px;
+    height: 100px;
     width:600px;
     background-color: aliceblue;
     opacity: 0%;
-  z-index:2;
+    z-index:2;
 }
 
 
@@ -34,7 +50,7 @@ section{
     padding-top: 35px;
     font:normal;
     right: 44   0px;
-    top: 240px;
+    top: 320px;
     z-index: 5;
     position: relative;
     font-family: "Bitcount Grid Double", system-ui;
@@ -55,7 +71,7 @@ nav{
     display: block ;
     unicode-bidi: isolate;
     color: black;
-    top: 300px;
+    top: 380px;
 
 }
 
@@ -68,27 +84,60 @@ a{
     text-align: center;
 }
 
-
-
-
-
+.swirly2{
+  height:90px;
+    width:83px;
+    z-index:5;
+    background-size:cover;
+    background-image:url("images/swirly2.PNG");
+    position:relative;  
+    bottom: 201px;
+    right: 100px;
+    rotate: 329deg;
 
 }
+
 .swirly{
-    height: 90px;
-    width: 83px;
-    z-index: 6;
-    background-size: cover;
-    background-image:url("images/swirly2.PNG")
-    top: 500px;
-    left: 500px;
-
-}
-
-
+  height:90px;
+    width:83px;
+    z-index:5;
+    background-size:cover;
+    background-image:url("images/swirly2.PNG");
+    position:relative;  
+    top: 21px;
+    right: 240px;
+    rotate: 329deg;
 
 
 }
+
+.swirly{
+  height:90px;
+    width:83px;
+    z-index:5;
+    background-size:cover;
+    background-image:url("images/swirly2.PNG");
+    position:relative;  
+    top: 21px;
+    right: 240px;
+    rotate: 329deg;
+
+
+}
+
+.image9{
+    height:90px;
+    width:83px;
+    z-index:5;
+    background-size:cover;
+    background-image:url("images/eye1.PNG");
+    position:relative;  
+    top: 100px;
+    right: 140px;
+    rotate: 329deg;
+
+}
+
 
 .image8{
     height:90px;
@@ -98,8 +147,9 @@ a{
     background-image:url("images/eye1.PNG");
     position:relative;  
     top:1000px;
-    left: 650px;
-   rotate: 5px;
+    right: 140px;
+   rotate: 229deg;
+    
 }
 
 .image7{
@@ -109,9 +159,9 @@ a{
     background-size:cover;
     background-image:url("images/eye1.PNG");
     position:relative;  
-    top:1000px;
+    top:500px;
     left: 650px;
-   rotate: 5px;
+   rotate: 38deg;
 }
 
 .image6{
@@ -123,7 +173,7 @@ a{
     position:relative;  
     top:1000px;
     left: 650px;
-   rotate: 5px;
+   rotate: 60deg;
 }
 
 .image5{
@@ -133,9 +183,9 @@ a{
     background-size:cover;
     background-image:url("images/eye1.PNG");
     position:relative;  
-    top:1000px;
-    left: 650px;
-   rotate: 5px;
+    top:1300px;
+    right: 150px;
+   rotate: 317deg;
 }
 
 .image4{
@@ -164,15 +214,13 @@ a{
 
 }
   
-
-
 .image2{
     height:500px;
     width:500px;
     z-index:6;
     background-size:cover;
     background-image:url("images/Logo3.PNG");
-    top: -940px;
+    top: -1100px;
     position:relative;
     left: 50px;
 }
@@ -186,7 +234,7 @@ a{
     z-index:4;
     padding-top:20px;
     position:relative;
-    bottom: 340px;
+    bottom: 1140px;
     right: 400px;
     left: 310px;
  
@@ -212,6 +260,34 @@ main{
     height: 2500px;
     position:absolute;
     right: 0;
+}
+
+footer{
+
+    background-color:rgb(180, 201, 244);
+    width:600px;
+    height:200px;
+   
+    padding-left:101px;
+    padding-right:100px;
+    position:relative;
+    right:100px;
+    bottom: -110px;
+    opacity:70%;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+
+
+.INFO{
+    font-size: 15px;
+    text-align: center ;
+    position:relative;
+    top: 100px;
+    font-family: "Roboto", sans-serif;    
+    color: rgb(40, 122, 255);
+    opacity: 100%;
 }
 
 .container{ 

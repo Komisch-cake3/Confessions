@@ -32,7 +32,7 @@ body{
 }
 }
     
-    header{
+header{
     height: 100px;
     width:600px;
     background-color: aliceblue;
@@ -82,6 +82,26 @@ a{
     padding-left:10px;
     padding-right: 10px;
     text-align: center;
+}
+
+
+.holder{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+
+.reviews{
+    background-color:rgb(238, 238, 238);
+    height: 250px;
+    width: 200px;
+    border-radius: 25px;
+    position: relative;
+    flex-wrap: wrap;
+    top: 900px;
+    white-space: 10px;
+    box-shadow: 5px 5px 10px 2px rgb(145, 145, 145);
+    margin: 5px;
 }
 
 .swirly2{

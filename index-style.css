@@ -50,7 +50,7 @@ section{
     padding-top: 35px;
     font:normal;
     right: 44   0px;
-    top: 320px;
+    top: -20px;
     z-index: 5;
     position: relative;
     font-family: "Bitcount Grid Double", system-ui;
@@ -84,21 +84,62 @@ a{
     text-align: center;
 }
 
+.stars{
+    display: flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    height:20px;
+    width: 10px;
+}
+
+
+.star{
+    position:relative;
+    top: 120px;
+    right: 15px;
+    width: 20px;
+    height:20px;
+    background-color:rgb(57, 57, 57);
+    clip-path: polygon(
+        50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 
+        21% 91%, 32% 57%, 2% 35%, 39% 35%
+    );
+}
+
+.name{
+    position: relative;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    top: 80px;
+    font-style: italic;
+}   
+
+.profile{
+    background-color: rgb(174, 174, 174);
+    position:relative;
+    height:70px;
+    width:70px;
+    border-radius: 40px;
+    left: 60px;
+    top: 15px;
+}
 
 .holder{
     display: flex;
-    flex-direction:row;
-    flex-wrap: wrap;
+    flex-direction:column;
+    flex-wrap:wrap;
+    height:400px;
+    width: 300px;
 }
 
 .reviews{
     background-color:rgb(238, 238, 238);
-    height: 250px;
+    height: 300px;
     width: 200px;
     border-radius: 25px;
     position: relative;
     flex-wrap: wrap;
-    top: 900px;
+    top: 700px;
     white-space: 10px;
     box-shadow: 5px 5px 10px 2px rgb(145, 145, 145);
     margin: 5px;
@@ -240,7 +281,7 @@ a{
     z-index:6;
     background-size:cover;
     background-image:url("images/Logo3.PNG");
-    top: -1100px;
+    top: -1550px;
     position:relative;
     left: 50px;
 }
@@ -254,7 +295,7 @@ a{
     z-index:4;
     padding-top:20px;
     position:relative;
-    bottom: 1140px;
+    bottom: 1470px;
     right: 400px;
     left: 310px;
  
@@ -287,18 +328,15 @@ footer{
     background-color:rgb(180, 201, 244);
     width:600px;
     height:200px;
-   
     padding-left:101px;
     padding-right:100px;
     position:relative;
-    right:100px;
-    bottom: -110px;
+    right:101px;
+    bottom: 290px;
     opacity:70%;
     border-bottom-right-radius: 25px;
     border-bottom-left-radius: 25px;
 }
-
-
 
 .INFO{
     font-size: 15px;

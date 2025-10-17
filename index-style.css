@@ -57,6 +57,8 @@ section{
     size: 0px;
 }
 
+
+
 nav{
     width: 500px;
     height: 100px;
@@ -90,6 +92,7 @@ a{
     background-color:rgb(208, 208, 208);
     border-radius: 20px;
     position:relative;
+    padding-bottom: 53px;
     right: 150px;
     top: 150px;
 }
@@ -109,6 +112,8 @@ a{
     background-color:rgb(208, 208, 208);
     border-radius: 20px;
     position:relative;
+        padding-bottom: 17px;
+
     right: 150px;
     top: 150px;
 }
@@ -128,6 +133,7 @@ a{
     background-color:rgb(208, 208, 208);
     border-radius: 20px;
     position:relative;
+    
     right: 150px;
     top: 150px;
 }
@@ -157,7 +163,7 @@ a{
     right: 15px;
     width: 20px;
     height:20px;
-    background-color:rgb(57, 57, 57);
+    background-color:rgb(255, 231, 74);
     clip-path: polygon(
         50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 
         21% 91%, 32% 57%, 2% 35%, 39% 35%
@@ -171,6 +177,81 @@ a{
     top: 80px;
     font-style: italic;
 }   
+
+.circle{
+    height:25px;
+    width:25px;
+    position:absolute;
+    background-color: rgb(195, 195, 195);
+    z-index: 15;
+    border-radius: 15px;
+    top: 23px;
+    left: 83px;
+}
+
+.oval{
+    height:25px;
+    width:40px;
+    position:absolute;
+    background-color: rgb(195,195,195);
+    z-index: 15;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    top: 60px;
+    left: 76px;
+}
+
+.circle2{
+    height:25px;
+    width:25px;
+    position:absolute;
+    background-color: rgb(195, 195, 195);
+    z-index: 15;
+    border-radius: 15px;
+    top: 23px;
+    left: 83px;
+}
+
+.oval2{
+    height:25px;
+    width:40px;
+    position:absolute;
+    background-color: rgb(195,195,195);
+    z-index: 15;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    top: 60px;
+    left: 76px;
+}
+
+.circle3{
+    height:25px;
+    width:25px;
+    position:absolute;
+    background-color: rgb(195, 195, 195);
+    z-index: 15;
+    border-radius: 15px;
+    top: 23px;
+    left: 83px;
+}
+
+.oval3{
+    height:25px;
+    width:40px;
+    position:absolute;
+    background-color: rgb(195, 195, 195);
+    z-index: 15;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    top: 60px;
+    left: 76px;
+}
 
 .profile{
     background-color: rgb(174, 174, 174);
@@ -203,10 +284,11 @@ a{
     border-radius: 25px;
     position: relative;
     flex-wrap: wrap;
-    top: 700px;
+    top: 1000px;
     white-space: 10px;
     box-shadow: 5px 5px 10px 2px rgb(145, 145, 145);
     margin: 5px;
+    z-index: 11;
 }
 
 .swirly2{
@@ -243,7 +325,7 @@ a{
     background-size:cover;
     background-image:url("images/swirly2.PNG");
     position:relative;  
-    top: 21px;
+    top: 400px;  
     right: 240px;
     rotate: 329deg;
 
@@ -308,7 +390,7 @@ a{
     background-size:cover;
     background-image:url("images/eye1.PNG");
     position:relative;  
-    top:1300px;
+    top:100px;
     right: 150px;
    rotate: 317deg;
 }
@@ -333,7 +415,7 @@ a{
     background-size:cover;
     background-image:url("images/eye1.PNG");
     position:relative;  
-    top:00px;
+    bottom:100px;
     right:150px;
    
 

@@ -86,6 +86,59 @@ a{
     text-align: center;
 }
 
+.drop{
+    position: relative;
+    display: inline-block;
+}
+
+.button{
+    background-color: rgb(213, 213, 213);
+    color: white;
+    padding-top: 10px, 16px;
+    font-size: 16px;
+    border:none;
+    cursor: pointer;
+}
+
+
+
+.squiggle1{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    width: 150px;
+    height: 50px;
+    top: 1250px;
+    border-radius: 50px;
+    right: 100px;
+    z-index: 11;
+
+}
+
+.squiggle1:before{
+    content: 'aaaaaaaaaaaa';
+    position:absolute;
+    top: -42;
+    left:0;
+    font-size: 4cm;
+    color: transparent;
+    text-decoration-style: wavy;
+    text-decoration-color:rgb(180, 201, 244);
+    text-decoration-line: underline;
+    animation: animate 1s linear infinite;
+
+}
+
+
+.FAQ{
+    color:rgb(180, 201, 244);
+    font-size: 2cm;
+    position:absolute;
+    bottom: 650px;
+    left: 710px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
 .Beans{
     color:rgb(180, 201, 244);
     font-size: 2cm;
@@ -102,7 +155,7 @@ a{
     height: 50px;
     top: 600px;
     border-radius: 50px;
-    right: 50px;
+    right: 100px;
 }
 
 .squiggle:before{
@@ -453,6 +506,31 @@ a{
     right: 240px;
     rotate: 359deg;
 
+}
+
+.image11{
+    height:90px;
+    width:83px;
+    z-index:7;
+    background-size:cover;
+    background-image:url("images/eye1.PNG");
+    position:absolute;  
+    top: 530px;
+    right: 510px;
+    rotate: 249deg;
+
+}
+
+.image10{
+    height:90px;
+    width:83px;
+    z-index:7;
+    background-size:cover;
+    background-image:url("images/eye1.PNG");
+    position:absolute;  
+    top: 400px;
+    right: 100px;
+    rotate: 59deg;
 
 }
 
@@ -623,7 +701,7 @@ a{
     z-index:6;
     background-size:cover;
     background-image:url("images/Logo3.PNG");
-    top: -800px;
+    top: -900px;
     position:relative;
     left: 50px;
 }
@@ -637,7 +715,7 @@ a{
     z-index:4;
     padding-top:20px;
     position:relative;
-    bottom: 650px;
+    bottom: 750px;
     right: 400px;
     left: 310px;
  
@@ -674,7 +752,7 @@ footer{
     padding-right:100px;
     position:relative;
     right:101px;
-    top: 394px;
+    top: 329px;
     opacity:70%;
     border-bottom-right-radius: 25px;
     border-bottom-left-radius: 25px;

@@ -94,7 +94,7 @@ a{
     font-family:Georgia, 'Times New Roman', Times, serif ;
     top: 1900px;
     left: 350px;
-    margin: 20px;
+    margin: 2   0px;
     white-space: 10px;
 
 }
@@ -388,7 +388,47 @@ a{
     z-index: 11;
 }
 
+.swirly11{
+  height:90px;
+    width:83px;
+    z-index:7;
+    background-size:cover;
+    background-image:url("images/swirly2.PNG");
+    position:absolute;  
+    top: 1500px;  
+    right: 270px;
+    rotate: 199deg;
 
+
+}
+
+.swirly10{
+  height:90px;
+    width:83px;
+    z-index:7;
+    background-size:cover;
+    background-image:url("images/swirly2.PNG");
+    position:absolute;  
+    top: 1000px;  
+    right: 100px;
+    rotate: 100deg;
+
+
+}
+
+.swirly9{
+  height:90px;
+    width:83px;
+    z-index:7;
+    background-size:cover;
+    background-image:url("images/swirly2.PNG");
+    position:absolute;  
+    top: 1500px;  
+    right: 1200px;
+    rotate: 19deg;
+
+
+}
 
 
 .swirly8{
@@ -514,8 +554,8 @@ a{
     background-size:cover;
     background-image:url("images/eye1.PNG");
     position:absolute;  
-    top: 530px;
-    right: 510px;
+    top: 1730px;
+    right: 1200px;
     rotate: 249deg;
 
 }
@@ -527,8 +567,8 @@ a{
     background-size:cover;
     background-image:url("images/eye1.PNG");
     position:absolute;  
-    top: 400px;
-    right: 100px;
+    top: 460px;
+    right: 270px;
     rotate: 59deg;
 
 }
@@ -608,6 +648,21 @@ a{
    rotate: 35deg ;
 }
 
+.swirly11:hover{
+    transform:  scale(1.3);
+    
+}
+
+.swirly10:hover{
+    transform:  scale(1.3);
+    
+}
+
+.swirly9:hover{
+    transform:  scale(1.3);
+    
+}
+
 .swirly8:hover{
     transform:  scale(1.3);
     
@@ -643,6 +698,16 @@ a{
 }
 
 .swirly:hover{
+    transform:  scale(1.3);
+    
+}
+
+.image11:hover{
+    transform:  scale(1.3);
+    
+}
+
+.image10:hover{
     transform:  scale(1.3);
     
 }

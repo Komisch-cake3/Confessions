@@ -762,7 +762,7 @@ a{
 .image2{
     height:500px;
     width:500px;
-    z-index:6;
+    z-index:4;
     background-size:cover;
     background-image:url("images/Logo3.PNG");
     top: -900px;
@@ -837,3 +837,4 @@ footer{
     flex-direction:row;
     flex-wrap: wrap;
 }
+

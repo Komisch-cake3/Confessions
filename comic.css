@@ -1,0 +1,38 @@
+header{
+    height: 100px;
+    width:600px;
+    background-color: aliceblue;
+    opacity: 0%;
+    z-index:2;
+}
+
+.image2{
+    height:500px;
+    width:500px;
+    z-index:4;
+    background-size:cover;
+    background-image:url("images/Logo3.PNG");
+    top: -900px;
+    position:relative;
+    left: 50px;
+}
+
+main{
+    border-radius: 25px;
+    height:2250px;
+    width:600px;
+    background-color: rgb(255, 255, 255);
+    padding-left:101px;
+    padding-right:100px;    
+    margin:auto;
+    z-index:3;
+}
+
+.box{
+    
+    background: rgb(171, 195, 243);
+    left: 0;
+    height: 2500px;
+    position:absolute;
+    right: 0;
+}

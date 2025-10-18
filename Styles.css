@@ -86,18 +86,17 @@ a{
     text-align: center;
 }
 
-.drop{
-    position: relative;
-    display: inline-block;
-}
+.questions{
+    color: black;
+    font-size:30px;
+    position: absolute;
+    z-index: 14;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    top: 1900px;
+    left: 350px;
+    margin: 20px;
+    white-space: 10px;
 
-.button{
-    background-color: rgb(213, 213, 213);
-    color: white;
-    padding-top: 10px, 16px;
-    font-size: 16px;
-    border:none;
-    cursor: pointer;
 }
 
 

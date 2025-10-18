@@ -6,20 +6,59 @@ header{
     z-index:2;
 }
 
+nav{
+    width: 500px;
+    height: 100px;
+    text-align: center;
+    border-radius: 4px;
+    margin:auto;
+    position:relative;
+    padding-top: 20px;
+    left: 00px;
+    z-index: 6;
+    right: 500px;
+    display: block ;
+    unicode-bidi: isolate;
+    color: black;
+    top: 380px;
+
+}
+
+a{ 
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    font-size:20px;
+    padding-left:10px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+.comic{
+    background-color:rgb(232, 232, 232);
+    height:500px;
+    width: 600px;
+    bottom: 200px;
+    position:absolute;
+    text-align: center;
+    padding-top: 200px;
+    
+}
+
+
 .image2{
     height:500px;
     width:500px;
     z-index:4;
     background-size:cover;
     background-image:url("images/Logo3.PNG");
-    top: -900px;
+    top: -200px;
     position:relative;
     left: 50px;
 }
 
 main{
     border-radius: 25px;
-    height:2250px;
+    height:1250px;
     width:600px;
     background-color: rgb(255, 255, 255);
     padding-left:101px;
@@ -32,7 +71,7 @@ main{
     
     background: rgb(171, 195, 243);
     left: 0;
-    height: 2500px;
+    height: 1500px;
     position:absolute;
     right: 0;
 }

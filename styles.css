@@ -746,7 +746,7 @@ a{
     background-size:cover;
     top: -900px;
     position:relative;
-    left: 50px;
+    right: 50px;
 }
 
 .image1{
@@ -758,7 +758,7 @@ a{
     padding-top:20px;
     position:relative;
     bottom: 750px;
-    left: 110px;
+    left: 400px;
  
 }
 
@@ -793,7 +793,7 @@ footer{
     padding-right:100px;
     position:relative;
     right:101px;
-    top: 600px;
+    top: 410px;
     opacity:70%;
     border-bottom-right-radius: 25px;
     border-bottom-left-radius: 25px;
@@ -814,4 +814,3 @@ footer{
     flex-direction:row;
     flex-wrap: wrap;
 }
-
